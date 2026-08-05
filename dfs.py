@@ -1,26 +1,42 @@
-def dfs (graph,start_node):
-  visited=[]
-  stack=[start_node]
-  while stack:
-    current_node=stack.pop()
+def dfs(graph,start_node):
+    visited = []
+    stack = [start_node]
+
+    while stack:
+        current_node=stack.pop()
+
     if current_node not in visited:
-      print(f"exploring node:{current_node}")
-      visited.append(current_node)
-      for neighor in graph.get(current_node,[]):
-        if neighor not in visited:
-          stack.append(neighor)
-    return visited
+        print(f"Exploring node:{current_node}:")
+        visited.append(current_node)
 
-  
+        for neighbour in graph.get(current_node, [] ):
+            if neighbour not in visited:
+                stack.append(neighbour)
 
-graph = {}
 
-n = int(input("Enter the number of nodes: "))
 
-for i in range(n):
-    node = input("Enter node: ")
-    neighbors = input(f"Enter neighbors of {node} (space-separated): ").split()
-    graph[node] = neighbors6
-start_node = input("Enter the starting node: ")
-traversal = dfs(graph, start_node)
-print("DFS Traversal:", traversal)
+print("---Build Your Graph")
+student_graph = {}
+
+num_edges = int(input("How many edges does your graph have?"))
+
+print("Enter each edge separated by a space(e.g., A B):")
+
+for i in range(num_edges):
+    u, v = input(f"Edge {i + 1}:").split()
+
+    if u not in student_graph:
+        student_graph[u] = []
+
+    if v not in student_graph:
+        student_graph[v] = []
+
+    student_graph[u].append(v)
+    student_graph[v].append(u)
+
+start = input("Enter the starting node for DFS:")
+
+print(f"\nYour Graph Dictionary: {student_graph}")
+print("Starting DFS Traversal...")
+
+dfs(student_graph, start)
