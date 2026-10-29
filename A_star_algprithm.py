@@ -100,4 +100,46 @@ goal = input("Enter goal node: ")
 
 # Run A* Algorithm
 a_star(graph, heuristic, start, goal)
+#OUTPUT
+# Enter number of nodes: 4
+
+# Enter node names:
+# Node 1: A
+# Node 2: B
+# Node 3: C
+# Node 4: D
+
+# Enter number of edges: 4
+
+# Enter edges in the following format:
+# Source Destination Cost
+
+# Edge 1 source: A
+# Edge 1 destination: B
+# Cost: 1
+
+# Edge 2 source: A
+# Edge 2 destination: C
+# Cost: 5
+
+# Edge 3 source: B
+# Edge 3 destination: D
+# Cost: 3
+
+# Edge 4 source: C
+# Edge 4 destination: D
+# Cost: 1
+
+# Enter heuristic values h(n):
+# h(A): 4
+# h(B): 2
+# h(C): 1
+# h(D): 0
+
+# Enter start node: A
+# Enter goal node: D
+
+# Shortest Path: A -> B -> D
+# Total Cost: 4
+
 
