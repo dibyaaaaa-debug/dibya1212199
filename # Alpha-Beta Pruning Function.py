@@ -65,5 +65,5 @@ result = alpha_beta(
 )
 print("\nOptimal Value:", result)
 #OUTPUT
-Enter 8 leaf node values: 3 5 6 9 1 2 0 -1
-Optimal Value: 5   alpha
+#Enter 8 leaf node values: 3 5 6 9 1 2 0 -1
+#Optimal Value: 5   alpha
