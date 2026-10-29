@@ -59,3 +59,76 @@ else:
         print("\nFinal Board:")
         print_board(board)
         print("Game Draw!")
+# OUTPUT
+# Current Board:
+
+#  |  | 
+# ---------
+
+#  |  | 
+# ---------
+
+#  |  | 
+# ---------
+# Player X's Turn
+# Enter row (0-2): 0
+# Enter column (0-2): 0
+
+# Current Board:
+# X |  | 
+# ---------
+
+#  |  | 
+# ---------
+
+#  |  | 
+# ---------
+# Player O's Turn
+# Enter row (0-2): 1
+# Enter column (0-2): 0
+
+# Current Board:
+# X |  | 
+# ---------
+# O |  | 
+# ---------
+
+#  |  | 
+# ---------
+# Player X's Turn
+# Enter row (0-2): 0
+# Enter column (0-2): 1
+
+# Current Board:
+# X | X | 
+# ---------
+# O |  | 
+# ---------
+
+#  |  | 
+# ---------
+# Player O's Turn
+# Enter row (0-2): 1
+# Enter column (0-2): 1
+
+# Current Board:
+# X | X | 
+# ---------
+# O | O | 
+# ---------
+
+#  |  | 
+# ---------
+# Player X's Turn
+# Enter row (0-2): 0
+# Enter column (0-2): 2
+
+# Final Board:
+# X | X | X
+# ---------
+# O | O | 
+# ---------
+
+#  |  | 
+# ---------
+# Player X Wins!
