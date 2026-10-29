@@ -54,4 +54,19 @@ result = min_max(0, 0, True, scores, height)
 
 print("\nBest value using Min_max:", result)
 
+#OUTPUT
+Enter number of leaf nodes: 8
+
+Enter the values of leaf nodes:
+Value 1: 3
+Value 2: 5
+Value 3: 2
+Value 4: 9
+Value 5: 12
+Value 6: 5
+Value 7: 23
+Value 8: 23
+
+Best value using Minimax: 12   
+
 
