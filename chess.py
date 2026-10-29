@@ -40,3 +40,12 @@ if solve(board,0):
     print_board(board)
 else:
     print("No solution exists")
+# OUTPUT
+# Q . . . . . . .
+# . . . . Q . . .
+# . . . . . . . Q
+# . . . . . Q . .
+# . . Q . . . . .
+# . . . . . . Q .
+# . Q . . . . . .
+# . . . Q . . . .
