@@ -44,3 +44,12 @@ path, cost = travelling_salesman(graph, start)
 
 print("\nOptimal Path:", " -> ".join(map(str, path)))
 print("Minimum Cost:", cost)
+# OUTPUT
+# Enter the number of cities: 3
+# Enter the cost matrix row by row:
+# 0 45 56
+# 45 0 78
+# 56 78 0
+# Enter the starting city (0 to 2): 2
+# Optimal Path: 2 -> 0 -> 1 -> 2
+# Minimum Cost: 179   
