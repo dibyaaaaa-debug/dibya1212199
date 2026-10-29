@@ -35,3 +35,11 @@ best_position, best_value = HILL_CLIMBING(start, step_size, max_iterations)
 
 print("\nBEST POSITION=", best_position)
 print("MAXIMUM VALUE=", best_value)
+#OUTPUT
+# enter the starting value: 2.0
+# enter the step size: 1.0
+# enter maximum iterations: 10
+
+# BEST POSITION= 5.0
+# MAXIMUM VALUE= 100.0
+
