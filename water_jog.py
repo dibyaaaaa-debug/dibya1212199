@@ -37,3 +37,17 @@ if solution:
         print(step)
 else:
     print("no solution exists")
+# OUTPUT
+# enter capacity of jog1:4
+# enter capacity of jog2:3
+# enter target amount:2
+
+# steps to reach the target
+# (0, 0)
+# (4, 0)
+# (1, 3)
+# (1, 0)
+# (0, 1)
+# (4, 1)
+# (2, 3)
+
