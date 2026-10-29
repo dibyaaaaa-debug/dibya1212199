@@ -64,3 +64,19 @@ start = input("Enter the starting node for BFS: ")
 print(f"\nYour Graph Dictionary: {student_graph}")
 print("Starting BFS Traversal...")
 bfs(student_graph, start)
+# OUTPUT
+# ---Build Your Graph
+# How many edges does your graph have? 3
+# Enter each edge separated by a space(e.g., A B):
+# Edge 1: A B
+# Edge 2: B C
+# Edge 3: C D
+# Enter the starting node for BFS: A
+
+# Your Graph Dictionary: {'A': ['B'], 'B': ['A', 'C'], 'C': ['B', 'D'], 'D': ['C']}
+# Starting BFS Traversal...
+# Exploring node:A:
+# Exploring node:B:
+# Exploring node:C:
+# Exploring node:D:
+
